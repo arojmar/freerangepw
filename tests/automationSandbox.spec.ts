@@ -1,5 +1,4 @@
 import { test, Browser, Page, expect} from '@playwright/test';
-import exp from 'constants';
 
 (async () => {
     let Browser: Browser;
