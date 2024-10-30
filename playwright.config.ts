@@ -34,7 +34,6 @@ export default defineConfig({
   projects: [
     {
       name: 'Computadora',
-      testMatch: '/AutomationSandbox.spec.ts',
       retries: 1,
       use: { ...devices['Desktop Chrome'] },
     },
